@@ -6,7 +6,7 @@
 #include <vector>
 #include <iomanip>
 #include <cstdlib>
-
+#include <filesystem>
 using namespace std;
 
 const string CAT_BREEDS_FILE = "Data/cat_breeds.txt";
@@ -291,6 +291,15 @@ void saveAll() {
 }
 
 void loadAll() {
+    filesystem::create_directory("Data");
+    ofstream(HOUSEHOLDS_FILE.c_str(), ios::app).close();
+    ofstream(MEMBERS_FILE.c_str(), ios::app).close();
+    ofstream(PETS_FILE.c_str(), ios::app).close();
+    ofstream(SUPPLIES_FILE.c_str(), ios::app).close();
+    ofstream(CARE_LOG_FILE.c_str(), ios::app).close();
+    ofstream(ADOPTION_LOG_FILE.c_str(), ios::app).close();
+    ofstream(SETTINGS_FILE.c_str(), ios::app).close();
+    ofstream(ECONOMY_FILE.c_str(), ios::app).close();
     catBreeds = loadWordList(CAT_BREEDS_FILE);
     dogBreeds = loadWordList(DOG_BREEDS_FILE);
     loadAdoptablePets();
