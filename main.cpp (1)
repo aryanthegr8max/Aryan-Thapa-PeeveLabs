@@ -723,7 +723,7 @@ cin.get();
     }
 }
 
-// --- shop ---
+// shop
 void buyShopItem() {
     header("Buy an Item");
     printShopTable();
