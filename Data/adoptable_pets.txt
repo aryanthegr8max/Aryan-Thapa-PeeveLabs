@@ -1,0 +1,15 @@
+1|Whiskers|Cat|Persian|2|80|0
+2|Shadow|Cat|Siamese|1|70|0
+3|Leo|Cat|Maine Coon|3|90|0
+4|Bella|Cat|Bengal|2|85|0
+5|Coco|Cat|Ragdoll|1|75|0
+6|Simba|Cat|Sphynx|4|95|0
+7|Milo|Cat|British Shorthair|2|80|0
+8|Luna|Cat|Scottish Fold|1|78|0
+9|Rex|Dog|Labrador Retriever|2|100|0
+10|Max|Dog|German Shepherd|3|110|0
+11|Buddy|Dog|Golden Retriever|1|95|0
+12|Daisy|Dog|French Bulldog|2|120|0
+13|Charlie|Dog|Poodle|4|90|0
+14|Rocky|Dog|Beagle|2|85|0
+15|Bear|Dog|Siberian Husky|3|105|0

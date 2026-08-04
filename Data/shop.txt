@@ -1,0 +1,15 @@
+1|Basic Kibble|Food|10|Restores 15 hunger
+2|Gourmet Meal|Food|25|Restores 35 hunger
+3|Fish Treats|Food|15|Restores 20 hunger, +5 happiness
+4|Squeaky Toy|Toy|12|+20 happiness
+5|Feather Wand|Toy|18|+25 happiness, +5 energy use
+6|Chew Bone|Toy|14|+18 happiness
+7|Shampoo Bottle|Grooming|10|Restores 30 cleanliness
+8|Grooming Brush|Grooming|20|Restores 40 cleanliness
+9|Flea Treatment|Grooming|22|Restores 25 cleanliness, +5 health
+10|Vitamin Pack|Medicine|30|+20 health
+11|Cold Medicine|Medicine|35|+30 health
+12|First Aid Kit|Medicine|40|+40 health
+13|Cozy Bed|Comfort|50|+30 energy when sleeping
+14|Training Clicker|Training|28|+15 training level
+15|Agility Kit|Training|45|+25 training level

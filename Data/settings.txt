@@ -1,0 +1,5 @@
+nextHouseholdId|1
+nextMemberId|1
+nextPetId|1
+nextCareLogId|1
+nextAdoptionLogId|1
