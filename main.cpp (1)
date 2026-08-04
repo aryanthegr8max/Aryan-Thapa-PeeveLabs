@@ -291,12 +291,6 @@ void saveAll() {
 }
 
 void loadAll() {
-    ofstream(HOUSEHOLDS_FILE.c_str(), ios::app).close();
-    ofstream(MEMBERS_FILE.c_str(), ios::app).close();
-    ofstream(PETS_FILE.c_str(), ios::app).close();
-    ofstream(SUPPLIES_FILE.c_str(), ios::app).close();
-    ofstream(CARE_LOG_FILE.c_str(), ios::app).close();
-    ofstream(ADOPTION_LOG_FILE.c_str(), ios::app).close();
     catBreeds = loadWordList(CAT_BREEDS_FILE);
     dogBreeds = loadWordList(DOG_BREEDS_FILE);
     loadAdoptablePets();
